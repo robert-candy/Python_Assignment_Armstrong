@@ -2,7 +2,6 @@ import os
 clear = lambda: os.system("cls")
 clear()
 
-# print("Presss 'q' for quit.")
 while True:
     number = input("Enter a positive Number:").strip().lower()
     digits = len(number)
